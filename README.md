@@ -6,10 +6,10 @@
 Authors Cornacchia Giandomenico*, Vito Walter Anelli, Fedelucio Narducci, and Azzurra Ragone; 
 
 <p float="left">
-  <img src="figure/3D TSNE DEBIASED female f(x)=0(1).svg" width="230" />
-  <img src="figure/3D TSNE DEBIASED male f(x)=0(1).svg" width="230" /> 
-  <img src="figure/3D TSNE XGB female f(x)=0(1).svg" width="230" />
-  <img src="figure/3D TSNE XGB male f(x)=0(1).svg" width="230" />
+  <img src="figure/3D TSNE DEBIASED female f(x)=0(1).svg" width="200" />
+  <img src="figure/3D TSNE DEBIASED male f(x)=0(1).svg" width="200" /> 
+  <img src="figure/3D TSNE XGB female f(x)=0(1).svg" width="200" />
+  <img src="figure/3D TSNE XGB male f(x)=0(1).svg" width="200" />
 </p>
 
 ## Setup Instructions
