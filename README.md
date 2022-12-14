@@ -37,6 +37,8 @@ python3 -u mainGenerate.py {config/{dataset}/...}.yml
 
 Result can be found in the folder Results/{dataset}/{model}/{SF}/Genetic.pickle
 
+N.B.: Experiments can take several days for each dataset and model. To speed up inference in the Model_Y and Counterfactual Generator loop for some scikit-learn models (e.g. SVM), the ["skearnex"](https://github.com/intel/scikit-learn-intelex) library from intel was used. The metrics' results may vary slightly from the scikit-learn models.
+
 ### Counterfactual metrics evaluation
 To evaluate the proposed metric for each dataset, simply run the following command:
 
