@@ -24,13 +24,13 @@ pip install -r requirements.txt
 ```
 
 ### Training, test models and generate CF samples
-To train, evaluate models, and generate counterfactual samples for each dataset and Classifier models, run:
+To train, evaluate models, and generate counterfactual samples for each dataset and Classifier, run:
 
 ```bash
 #sudo chmod +x run_all_generation.sh + User_password if Permission Denied 
 ./run_all_generation.sh
 ```
-or chose oneof the config file of specific dataset and run:
+or chose one of the config file for a specific dataset, and run:
 ```bash
 python3 -u mainGenerate.py {config/{dataset}/...}.yml
 ```
