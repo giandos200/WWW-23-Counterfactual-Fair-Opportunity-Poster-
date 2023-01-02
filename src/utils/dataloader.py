@@ -159,10 +159,10 @@ def dataLoader(type):
     #     categorical = df.columns.difference(numvars)
     #     return df, target, 'marital-status', 'income', numvars, categorical
 
-    if type.lower() == 'german-gender':
+    elif type.lower() == 'german-gender':
         df = pd.read_csv(pathGerman, sep='\t')
         numvars = ['creditamount', 'duration', 'installmentrate', 'residencesince', 'existingcredits', 'peopleliable']
-        Sensitive_Features = ['gender', 'foreignworker']
+        Sensitive_Features = ['gender', 'foreignworker', 'age', 'statussex']
         target = df[['gender','classification']]
         target.replace(['M','F'], [1, 0], inplace=True)
         df = df.drop(columns=Sensitive_Features)
@@ -170,6 +170,7 @@ def dataLoader(type):
         df = df.drop("classification", axis=1)
         categorical = df.columns.difference(numvars)
         return df, target, 'gender', 'classification', numvars, categorical
+
 
     # if type.lower() == 'german-fw':
     #     df = pd.read_csv(pathGerman, sep='\t')

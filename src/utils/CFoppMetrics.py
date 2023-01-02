@@ -9,7 +9,7 @@ def get_result_from_pickle(path):
         return pickle.load(file)
 
 
-def CFmetrics(Results, method, SF):
+def CFmetrics(Results, method, SF, modelSF):
     corpus = []
 
     # for k in tqdm(Results.keys()):
@@ -23,7 +23,12 @@ def CFmetrics(Results, method, SF):
         posPriv = []
         negUnpriv = []
         posUnpriv = []
-        R = risultati[method]['sample_CF']
+        R = []
+        for i in tqdm(risultati[method]['sample_CF']):
+            sample, y_real, result, y_sens, y_CF_sens, CF = i
+            y_sens = modelSF.predict(sample)
+            y_CF_sens = modelSF.predict(CF)
+            R.append(tuple([sample, y_real, result, y_sens, y_CF_sens, CF]))
         for u in R:
             sample, y_real, result, y_sens, y_CF_sens, CF = u
             if y_real[SF].item() == y_sens.item():
