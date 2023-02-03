@@ -5,6 +5,7 @@ from src.model.CFgeneration import GenerateCF
 
 if __name__ == '__main__':
     print(sys.argv)
+    #sys.argv.append('config/Adult/config-adult-gender.yml')
     pathConfig = sys.argv[1] #../config/generation/config-adult-gender-generation-XGB.yml
     with open(f"{pathConfig}", 'r') as stream:
         try:
