@@ -85,3 +85,5 @@ python3 -u T-SNE.py
 Image are saved in folder ./figures/3D TSNE {model} {unpriv/priv} f(x)=0.svg
 
 N.B.: Images can be slightly different, based on seed, python and libraries versions. Neverthless, they are only toys image that will return the same conceptual findings.
+## License
+ELLIOT uses [APACHE2 License](./LICENSE).
