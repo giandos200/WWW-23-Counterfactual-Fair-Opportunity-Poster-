@@ -1,6 +1,5 @@
 # WWW-23-Counterfactual-Fair-Opportunity-Poster-
 
-
 ## Official repository of Counterfactual Fair Opportunity (Poster) - The Web Conference 2023 (WWW '23)
 
 Authors: Giandomenico Cornacchia*, Vito Walter Anelli, Fedelucio Narducci, and Azzurra Ragone; 
