@@ -1,4 +1,4 @@
-# WWW-23-	``Counterfactual Reasoning for Decision Model Fairness Assessment-Poster''-
+# WWW-23-	Counterfactual Reasoning for Decision Model Fairness Assessment - Poster -
 
 ## Official repository of Counterfactual Reasoning for Decision Model Fairness Assessment (Poster) - The Web Conference 2023 (WWW '23)
 
