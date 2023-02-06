@@ -3,7 +3,7 @@
 
 ## Official repository of Counterfactual Fair Opportunity (Poster) - The Web Conference 2023 (WWW '23)
 
-Authors: Giandomenico Cornacchia*, Vito Walter Anelli, Fedelucio Narducci, and Azzurra Ragone; 
+Authors: Giandomenico Cornacchia*, Vito Walter Anelli, Fedelucio Narducci, Azzurra Ragone, and Eugenio Di Sciascio; 
 
 <p float="left">
   <img src="figure/3D TSNE XGB male f(x)=0(1).svg" width="200" />
