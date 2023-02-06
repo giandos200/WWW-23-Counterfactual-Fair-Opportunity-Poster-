@@ -24,7 +24,8 @@ def CFmetrics(Results, method, SF, modelSF):
         negUnpriv = []
         posUnpriv = []
         R = []
-        for i in tqdm(risultati[method]['sample_CF']):
+        CFstr = list(risultati.keys())[0]
+        for i in tqdm(risultati[CFstr]['sample_CF']):
             sample, y_real, result, y_sens, y_CF_sens, CF = i
             y_sens = modelSF.predict(sample)
             y_CF_sens = modelSF.predict(CF)
