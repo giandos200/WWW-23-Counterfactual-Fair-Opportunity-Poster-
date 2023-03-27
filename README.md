@@ -1,5 +1,7 @@
 # WWW-23-	Counterfactual Reasoning for Decision Model Fairness Assessment - Poster -
 
+# Accepted at WWW 2023 - Poster and Demo.
+
 ## Official repository of Counterfactual Reasoning for Decision Model Fairness Assessment (Poster) - The Web Conference 2023 (WWW '23)
 
 Authors: Giandomenico Cornacchia*, Vito Walter Anelli, Fedelucio Narducci, Azzurra Ragone, and Eugenio Di Sciascio; 
