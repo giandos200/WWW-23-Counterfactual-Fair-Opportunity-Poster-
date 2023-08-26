@@ -89,3 +89,25 @@ Image are saved in folder ./figures/3D TSNE {model} {unpriv/priv} f(x)=0.svg
 N.B.: Images can be slightly different, based on seed, python and libraries versions. Neverthless, they are only toys image that will return the same conceptual findings.
 ## License
 This repo uses [APACHE2 License](./LICENSE).
+
+To cite our work:
+
+```
+@inproceedings{10.1145/3543873.3587354,
+author = {Cornacchia, Giandomenico and Anelli, Vito Walter and Narducci, Fedelucio and Ragone, Azzurra and Di Sciascio, Eugenio},
+title = {Counterfactual Reasoning for Decision Model Fairness Assessment},
+year = {2023},
+isbn = {9781450394192},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3543873.3587354},
+doi = {10.1145/3543873.3587354},
+abstract = {The increasing application of Artificial Intelligence and Machine Learning models poses potential risks of unfair behaviour and, in the light of recent regulations, has attracted the attention of the research community. Several researchers focused on seeking new fairness definitions or developing approaches to identify biased predictions. These approaches focus solely on a discrete and limited space; only a few analyze the minimum variations required in the user characteristics to ensure a positive outcome for the individuals (counterfactuals). In that direction, the methodology proposed in this paper aims to unveil unfair model behaviors using counterfactual reasoning in the case of fairness under unawareness. The method also proposes two new metrics that analyse the (estimated) sensitive information of counterfactual samples with the help of an external oracle. Experimental results on three data sets show the effectiveness of our approach for disclosing unfair behaviour of state-of-the-art Machine Learning and debiasing models. Source code is available at https://github.com/giandos200/WWW-23-Counterfactual-Fair-Opportunity-Poster-.},
+booktitle = {Companion Proceedings of the ACM Web Conference 2023},
+pages = {229–233},
+numpages = {5},
+keywords = {Audit, Bias, Counterfactual Reasoning, Fairness},
+location = {Austin, TX, USA},
+series = {WWW '23 Companion}
+}
+```
